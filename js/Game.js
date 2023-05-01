@@ -126,14 +126,14 @@ class Game {
            this.update(gameState);
            // descomente e corrija um desses para aumentar a classificação de um jogador em 1 e atualizar no banco de dados.
            
-            player.rank += 1;
-            player.updateanimalsAtEnd(player.rank);
+           // player.rank += 1;
+            //player.updateanimalsAtEnd(player.rank);
 
           //  rank += 1;
           //  Player.updateanimalsAtEnd(rank);
 
-          //  player.rank += 1;
-          //  Player.updateanimalsAtEnd(player.rank);
+            player.rank += 1;
+           Player.updateanimalsAtEnd(player.rank);
 
 
            player.update();
